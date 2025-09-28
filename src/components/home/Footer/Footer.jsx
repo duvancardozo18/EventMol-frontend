@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex items-center grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 mb-6">
           {/* Image Section - Aumentado el tamaño de la imagen */}
           <div className="flex justify-center md:justify-start">
-            <img src="img/logo.webp" alt="EventosIA Logo" className="h-40 w-auto" />
+            <img src="img/logo.webp" alt="EventMol Logo" className="h-40 w-auto" />
           </div>
 
           {/* Enlaces */}
@@ -55,11 +55,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center md:justify-start gap-2">
                 <a
-                  href="mailto:info@eventosIA.com"
+                  href="mailto:info@EventMol.com"
                   className="flex items-center gap-2 hover:text-[#2a3f68] transition-colors"
                 >
                   <Mail size={20} />
-                  <p className="text-xl">info@eventosIA.com</p>
+                  <p className="text-xl">info@EventMol.com</p>
                 </a>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Footer = () => {
 
         {/* Sección inferior - Añadidos los enlaces a redes sociales */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <h2 className="text-2xl font-bold">EventosIA</h2>
+          <h2 className="text-2xl font-bold">EventMol</h2>
 
           <div className="flex gap-4 items-center">
             <a
@@ -128,7 +128,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="bg-[#365486] text-center text-gray-100 w-full py-4">
-        <p>&copy; {currentYear} EventosIA. Todos los derechos reservados.</p>
+        <p>&copy; {currentYear} EventMol. Todos los derechos reservados.</p>
       </div>
     </div>
   )

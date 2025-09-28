@@ -83,7 +83,7 @@ const LandingPage = () => {
 
             <div className="relative bg-white p-2 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1">
               <div className="absolute -top-3 -right-3 bg-[#365486] text-white text-xs font-bold px-3 py-1 rounded-full">
-                EventosIA
+                EventMol
               </div>
 
               <img src="img/event_management.webp" alt="Gestión de eventos" className="w-full h-auto rounded-xl" />

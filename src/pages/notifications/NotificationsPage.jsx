@@ -110,7 +110,7 @@ const NotificationsPage = () => {
     <div className="w-full min-h-screen bg-gradient-to-b from-[#d9e6f5] to-[#c5d8ed] flex flex-col items-center justify-center p-4 relative">
       {/* Botón para volver al Dashboard */}
       <button
-        onClick={() => (window.location.href = "http://localhost:5173/dashboard/inicio")}
+        onClick={() => (window.location.href = "/dashboard/inicio")}
         className="absolute top-6 left-6 flex items-center gap-2 text-[#365486] hover:text-[#4a6da8] transition-colors duration-300 font-medium z-10"
       >
         <ArrowLeft size={20} />

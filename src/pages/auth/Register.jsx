@@ -246,7 +246,7 @@ const Register = () => {
       {/* Barra superior con botón de volver para móviles */}
       <div className="fixed top-0 left-0 right-0 z-20 bg-white/80 backdrop-blur-sm py-3 px-4 md:hidden">
         <button
-          onClick={() => (window.location.href = "http://localhost:5173/#home")}
+          onClick={() => (window.location.href = "/")}
           className="flex items-center gap-2 text-[#365486] hover:text-[#4a6da8] transition-colors duration-300 font-medium"
         >
           <ArrowLeft size={18} />
@@ -256,7 +256,7 @@ const Register = () => {
 
       {/* Botón para volver a la página de inicio (solo desktop) */}
       <button
-        onClick={() => (window.location.href = "http://localhost:5173/#home")}
+        onClick={() => (window.location.href = "/")}
         className="absolute top-6 left-6 hidden md:flex items-center gap-2 text-[#365486] hover:text-[#4a6da8] transition-colors duration-300 font-medium z-10"
       >
         <ArrowLeft size={20} />
