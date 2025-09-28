@@ -1,6 +1,6 @@
-# EventMol Frontend 🎨
+# EventMol 
 
-Este repositorio contiene el **frontend de EventMol**, un **Sistema de Gestión de Eventos con Planificación Automática**.  
+Este repositorio contiene el frontend de EventMol, un **Sistema de Gestión de Eventos con Planificación Automática**.  
 La interfaz está desarrollada con **React** y proporciona una experiencia intuitiva para administradores y participantes.
 
 ---
@@ -19,14 +19,12 @@ La interfaz está desarrollada con **React** y proporciona una experiencia intui
 ## 🛠️ Tecnologías Utilizadas
 
 - **React.js** (Frontend)
-- **React Router** (Navegación)
 - **Axios** (Consumo de API)
 - **Tailwind CSS** (Estilos)
-- **Vite** o **Create React App** (Inicialización del proyecto)
-- **React Query** o **Redux** (Opcional para manejo de estado global)
+- **Vite** 
+- **Dockerfile** (Opcional, para despliegue)
 
 ---
-
 ## 📂 Estructura del Proyecto
 
 ```bash
@@ -44,7 +42,7 @@ eventmol-frontend/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
-
+```
 
 ---
 
@@ -54,7 +52,7 @@ eventmol-frontend/
    - Copiar `.env.example` y renombrar como `.env`
    - Abrir una nueva terminal en el proyecto raiz del **Backend** y levantar servidor, posteriormente copiar la url del servidor corriendo, ejemplo: http://127.0.0.1:8000/
    - Establecer la **Conexion del Frontend con el Backend** en el archivo `.env` estructura de ejemplo: VITE_API_BASE_URL=http://127.0.0.1:8000/
-#remplazar de acuerdo a la url del backend corriendo.
+
 4. **Instalar Dependencias**  
    Abrir una terminal en el directorio raíz del proyecto y ejecute:  
    ```bash
@@ -63,3 +61,5 @@ eventmol-frontend/
    ```bash
    npm run dev
 ---
+
+
