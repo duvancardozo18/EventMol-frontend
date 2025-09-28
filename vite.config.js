@@ -5,7 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    [react()],
+    react(),
     tailwindcss(),
-  ]
+  ],
+  preview: {
+    host: true,
+    port: 3000,
+    allowedHosts: ['eventmol.duvancardozo.space'],
+  }
 })
