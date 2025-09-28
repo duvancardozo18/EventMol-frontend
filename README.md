@@ -63,3 +63,10 @@ eventmol-frontend/
 ---
 
 
+---
+## 🚀 Credenciales
+
+- **Correo:** `admin@example.com`  
+- **Contraseña:** `123456#` 
+---
+
